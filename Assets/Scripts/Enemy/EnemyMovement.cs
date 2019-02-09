@@ -11,7 +11,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Awake ()
     {
-        player = GameObject.FindGameObjectWithTag ("Player").transform;
+        player = GameObject.FindWithTag ("Player").transform;
         //playerHealth = player.GetComponent <PlayerHealth> ();
         //enemyHealth = GetComponent <EnemyHealth> ();
         nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
@@ -26,7 +26,7 @@ public class EnemyMovement : MonoBehaviour
         //}
         //else
         //{
-        //    nav.enabled = false;
+            //nav.enabled = false;
         //}
     }
 }
