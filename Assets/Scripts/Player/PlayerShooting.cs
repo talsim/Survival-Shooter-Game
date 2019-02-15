@@ -15,7 +15,7 @@ public class PlayerShooting : MonoBehaviour
     AudioSource gunAudio;                           // Reference to the audio source.
     Light gunLight;                                 // Reference to the light component.
     float effectsDisplayTime = 0.2f;                // The proportion of the timeBetweenBullets that the effects will display for.
-
+    
     void Awake()
     {
         // Create a layer mask for the Shootable layer.
